@@ -1,0 +1,58 @@
+/* CSS Reset em alguns elementos */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding-left: 16px;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+footer {
+    height: 200px;
+    background: linear-gradient(darkblue, blue);
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Regra usando seletor ID */
+#imagem-decorativa { 
+    height: 400px;
+    background-image: url(../imagens/teclado.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.treinamentos{
+    display: flex;
+    justify-content:space-between;
+}
+
+.treinamentos section {
+width: 30%;
+background-color: rgb(148, 133, 206);
+text-align: center;
+border-radius: 4px;
+box-shadow: grey 1px 1px 10px;
+
+}
+
+iframe {width: 100%;}

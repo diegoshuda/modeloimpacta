@@ -1,0 +1,38 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador PHP"
+    },
+    {
+      "id": 2,
+      "titulo": "Dev. Front-End"
+    },
+    {
+      "id": 3,
+      "titulo": "Dev. Back-End"
+    },
+    {
+      "id": 4,
+      "titulo": "UX/UI Designner"
+    }
+  ],
+  "candidatos": [
+    {
+      "nome": "Diego Pessoa",
+      "nascimento": "1985-06-03",
+      "telefone": "11995547784",
+      "email": "diego@gmail.com",
+      "vaga": "Dev. Front-End",
+      "id": 1
+    },
+    {
+      "nome": "Taumaturgo Ferreira",
+      "nascimento": "1970-05-03",
+      "telefone": "11947774844",
+      "email": "diegoshuda@hotmail.com",
+      "vaga": "Dev. Front-End",
+      "id": 2
+    }
+  ]
+}
